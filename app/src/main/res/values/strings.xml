@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Tour Guide St Clair Shores</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="title_section_1">Events</string>
+    <string name="title_section_2">Food</string>
+    <string name="title_section_3">Hotels</string>
+    <string name="title_section_4">Bars</string>
+
+    <!--Bar Fragment -->
+    <string name="butter_run_saloon">Butter Run Saloon</string>
+    <string name="butter_run_address">27626 Harper Ave, \n St Clair Shores, MI</string>
+    <string name="butter_run_phone_number">(586) 675-2115</string>
+
+    <string name="pbs_sports_grille">PB\'s Sports Grille</string>
+    <string name="pbs_address">24301 Harper Ave, \n St Clair Shores, MI </string>
+    <string name="pbs_phone_number">(586) 778-9066</string>
+
+    <string name="shores_inn">Shores Inn</string>
+    <string name="shores_inn_address">23410 Greater Mack Ave, \n St Clair Shores, MI</string>
+    <string name="shores_inn_phone_number">(586) 773-8940</string>
+
+    <string name="boat_works">Boat Works</string>
+    <string name="boat_works_address">29917 Harper Ave, \n St Clair Shores, MI</string>
+    <string name="boat_works_phone_number">(586) 777-5730</string>
+
+    <string name="colleens_irish_pub">Colleen\'s Irish Pub</string>
+    <string name="colleens_address">32307 Harper Ave, \n St Clair Shores, MI</string>
+    <string name="colleens_phone_number">(586) 415-0571</string>
+</resources>
