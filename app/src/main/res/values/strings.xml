@@ -3,7 +3,7 @@
     <string name="action_settings">Settings</string>
 
 
-    <string name="title_section_1">Events</string>
+    <string name="title_section_1">Gas</string>
     <string name="title_section_2">Food</string>
     <string name="title_section_3">Hotels</string>
     <string name="title_section_4">Bars</string>
@@ -28,4 +28,68 @@
     <string name="colleens_irish_pub">Colleen\'s Irish Pub</string>
     <string name="colleens_address">32307 Harper Ave, \n St Clair Shores, MI</string>
     <string name="colleens_phone_number">(586) 415-0571</string>
+
+    <!--Hotels Fragment -->
+    <string name="red_roof_inn">Red Roof Inn</string>
+    <string name="red_roof_address">31800 Little Mack Ave, \n Roseville, MI</string>
+    <string name="red_roof_phone_number">(586) 296-0310</string>
+
+    <string name="extended_stay_america">Extended Stay</string>
+    <string name="extended_stay_address">20200 E 13 Mile Rd, \n Roseville, MI </string>
+    <string name="extended_stay_phone_number">(586) 294-0141</string>
+
+    <string name="holiday_inn">Holiday Inn Express</string>
+    <string name="holiday_inn_address">31900 Little Mack Ave, \n Roseville, MI</string>
+    <string name="holiday_inn_phone_number">(586) 285-5800</string>
+
+    <string name="baymont_inn">Baymont Inn and Suites</string>
+    <string name="baymont_inn_address">20675 E 13 Mile Rd, \n Roseville, MI </string>
+    <string name="baymont_phone_number">(586) 296-6910</string>
+
+    <string name="days_inn">Days Inn and Suites</string>
+    <string name="days_inn_address">31327 Gratiot Ave, \n Roseville, MI</string>
+    <string name="days_inn_phone_number">(586) 294-0400</string>
+
+    <!--Restaurants Fragment -->
+    <string name="gim_ling">Gim Ling</string>
+    <string name="gim_ling_address">31402 Harper Ave, \n St Clair Shores, MI</string>
+    <string name="gim_ling_phone_number">(586) 296-0070</string>
+
+    <string name="fishbones_rhythm_kitchen">Fishbone\'s</string>
+    <string name="fishbones_address">223722 Jefferson Ave, \n St Clair Shores, MI </string>
+    <string name="fishbones_phone_number">(586) 498-3000</string>
+
+    <string name="brownies_on_the_lake">Brownies On The Lake</string>
+    <string name="brownies_address">24214 Jefferson Ave, \n St Clair Shores, MI</string>
+    <string name="brownies_phone_number">(586) 445-8080</string>
+
+    <string name="the_copper_penny">The Copper Penny</string>
+    <string name="copper_penny_address">24975 Harper Ave, \n St Clair Shores, MI</string>
+    <string name="copper_penny_phone_number">(586) 777-1112</string>
+
+    <string name="golden_chopsticks">Golden Chopsticks</string>
+    <string name="golden_chopsticks_address">24301 Jefferson Ave, \n St Clair Shores, MI</string>
+    <string name="golden_chopsticks_phone_number">(586) 776-7711</string>
+
+    <!--Gas Station Fragment -->
+    <string name="zazz">Zazz</string>
+    <string name="zazz_address">21616 Harper Ave, \n St Clair Shores, MI </string>
+    <string name="zazz_phone_number">(586) 774-0625</string>
+
+    <string name="mobil">Mobil</string>
+    <string name="mobil_address"> 19600 E 9 Mile Rd, \n St Clair Shores, MI  </string>
+    <string name="mobil_phone_number">(586) 585-1637</string>
+
+    <string name="kroger_gas_station">Kroger Gas Station</string>
+    <string name="kroger_address">31145 Harper Ave, \n St Clair Shores, MI </string>
+    <string name="kroger_phone_number">(586) 294-4004</string>
+
+    <string name="sunoco">Sunoco</string>
+    <string name="sunoco_address">32300 Harper Ave, \n St Clair Shores, MI </string>
+    <string name="sunoco_phone_number">(248) 474-0900</string>
+
+    <string name="marathon">Marathon</string>
+    <string name="marathon_address">25100 Little Mack Ave, \n St Clair Shores, MI</string>
+    <string name="marathon_phone_number">(586) 777-6080</string>
+
 </resources>
