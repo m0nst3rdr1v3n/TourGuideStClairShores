@@ -6,6 +6,9 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
+
+import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -27,38 +30,24 @@ public class HotelFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_main, container, false);
+        View rootView = inflater.inflate(R.layout.results_list, container, false);
+
+        //Create a list of results for bars.
+        final ArrayList<Results> results = new ArrayList<Results>();
+        results.add(new Results(R.string.red_roof_inn, R.string.red_roof_address, R.string.red_roof_phone_number, R.drawable.red_roof_inn));
+        results.add(new Results(R.string.extended_stay_america, R.string.extended_stay_address, R.string.extended_stay_phone_number, R.drawable.extended_stay));
+        results.add(new Results(R.string.holiday_inn, R.string.holiday_inn_address, R.string.holiday_inn_phone_number, R.drawable.holiday_inn));
+        results.add(new Results(R.string.baymont_inn, R.string.baymont_inn_address, R.string.baymont_phone_number, R.drawable.baymont_hotel));
+        results.add(new Results(R.string.days_inn, R.string.days_inn_address, R.string.days_inn_phone_number, R.drawable.days_inn));
+
+        ResultsAdapter adapter = new ResultsAdapter(getActivity(), results, R.color.categoryHotels);
+
+        ListView listView = (ListView) rootView.findViewById(R.id.results_list);
+
+        listView.setAdapter(adapter);
+
+
         return rootView;
     }
 
 }
-/*
-// In this case, the fragment displays simple text based on the page
-public class HotelFragment extends Fragment {
-    public static final String ARG_PAGE = "ARG_PAGE";
-
-    private int mPage;
-
-    public static HotelFragment newInstance(int page) {
-        Bundle args = new Bundle();
-        args.putInt(ARG_PAGE, page);
-        HotelFragment fragment = new HotelFragment();
-        fragment.setArguments(args);
-        return fragment;
-    }
-
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        mPage = getArguments().getInt(ARG_PAGE);
-    }
-
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_hotel, container, false);
-        TextView textView = (TextView) view;
-        textView.setText("Fragment #" + mPage);
-        return view;
-    }
-}*/
