@@ -34,11 +34,11 @@ public class HotelFragment extends Fragment {
 
         //Create a list of results for bars.
         final ArrayList<Results> results = new ArrayList<Results>();
-        results.add(new Results(R.string.red_roof_inn, R.string.red_roof_address, R.string.red_roof_phone_number, R.drawable.red_roof_inn));
-        results.add(new Results(R.string.extended_stay_america, R.string.extended_stay_address, R.string.extended_stay_phone_number, R.drawable.extended_stay));
-        results.add(new Results(R.string.holiday_inn, R.string.holiday_inn_address, R.string.holiday_inn_phone_number, R.drawable.holiday_inn));
-        results.add(new Results(R.string.baymont_inn, R.string.baymont_inn_address, R.string.baymont_phone_number, R.drawable.baymont_hotel));
-        results.add(new Results(R.string.days_inn, R.string.days_inn_address, R.string.days_inn_phone_number, R.drawable.days_inn));
+        results.add(new Results(R.string.red_roof_inn, R.string.red_roof_address, R.string.red_roof_phone_number, R.mipmap.red_roof_inn));
+        results.add(new Results(R.string.extended_stay_america, R.string.extended_stay_address, R.string.extended_stay_phone_number, R.mipmap.extended_stay));
+        results.add(new Results(R.string.holiday_inn, R.string.holiday_inn_address, R.string.holiday_inn_phone_number, R.mipmap.holiday_inn));
+        results.add(new Results(R.string.baymont_inn, R.string.baymont_inn_address, R.string.baymont_phone_number, R.mipmap.baymont_hotel));
+        results.add(new Results(R.string.days_inn, R.string.days_inn_address, R.string.days_inn_phone_number, R.mipmap.days_inn));
 
         ResultsAdapter adapter = new ResultsAdapter(getActivity(), results, R.color.categoryHotels);
 

@@ -34,11 +34,11 @@ public class GasStationFragment extends Fragment {
 
         //Create a list of results for bars.
         final ArrayList<Results> results = new ArrayList<Results>();
-        results.add(new Results(R.string.zazz, R.string.zazz_address, R.string.zazz_phone_number, R.drawable.ic_local_gas_station_black_24dp));
-        results.add(new Results(R.string.mobil, R.string.mobil_address, R.string.mobil_phone_number, R.drawable.ic_local_gas_station_black_24dp));
-        results.add(new Results(R.string.kroger_gas_station, R.string.kroger_address, R.string.kroger_phone_number, R.drawable.ic_local_gas_station_black_24dp));
-        results.add(new Results(R.string.sunoco, R.string.sunoco_address, R.string.sunoco_phone_number, R.drawable.ic_local_gas_station_black_24dp));
-        results.add(new Results(R.string.marathon, R.string.marathon_address, R.string.marathon_phone_number, R.drawable.ic_local_gas_station_black_24dp));
+        results.add(new Results(R.string.zazz, R.string.zazz_address, R.string.zazz_phone_number, R.mipmap.ic_launcher));
+        results.add(new Results(R.string.mobil, R.string.mobil_address, R.string.mobil_phone_number, R.mipmap.ic_launcher));
+        results.add(new Results(R.string.kroger_gas_station, R.string.kroger_address, R.string.kroger_phone_number, R.mipmap.ic_launcher));
+        results.add(new Results(R.string.sunoco, R.string.sunoco_address, R.string.sunoco_phone_number, R.mipmap.ic_launcher));
+        results.add(new Results(R.string.marathon, R.string.marathon_address, R.string.marathon_phone_number, R.mipmap.ic_launcher));
 
         ResultsAdapter adapter = new ResultsAdapter(getActivity(), results, R.color.categoryGasStations);
 
